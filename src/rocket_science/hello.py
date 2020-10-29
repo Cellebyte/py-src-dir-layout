@@ -1,2 +1,5 @@
+def say(message: str) -> str:
+    return message
 
-print("Hello World!")
+def hello():
+    print(say("Hello World!"))
