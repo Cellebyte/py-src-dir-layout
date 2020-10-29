@@ -115,6 +115,11 @@ envlist = test
 [testenv:test]
 deps = pytest
 commands = pytest -v
+
+[testenv:pre-commit]
+skip_install = True
+deps = pre-commit>=1.11.0
+commands = pre-commit run --all-files --show-diff-on-failure {posargs:}
 ```
 
 ### With just the repository
@@ -128,4 +133,9 @@ envlist = test
 deps = pytest
 setenv = PYTHONPATH=src ; only if you want to run again repository without installation
 commands = pytest -v
+
+[testenv:pre-commit]
+skip_install = True
+deps = pre-commit>=1.11.0
+commands = pre-commit run --all-files --show-diff-on-failure {posargs:}
 ```
