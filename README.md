@@ -8,15 +8,15 @@ So I started a small repository which just shows how to do it properly.
 ├── MANIFEST.in
 ├── README.md
 ├── setup.py
-├── test.txt
-├── .gitignore
 ├── src
 │   └── rocket_science
 │       ├── __init__.py
 │       └── hello.py
-└── tests
-    ├── __init__.py     # this is not needed if you use a tooling like pytest it can be used to structure your tests
-    └── test_hello.py
+├── test.txt
+├── tests
+│   ├── __init__.py    # this is not needed if you use a tooling like pytest it can be used to structure your tests
+│   └── test_hello.py
+└── tox.ini
 ```
 
 ## Creating a VENV
