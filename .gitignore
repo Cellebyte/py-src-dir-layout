@@ -1,6 +1,7 @@
 .venv
 .vscode
 .mypy_cache
+.pytest_cache
 build
 dist
 __pycache__

@@ -1,0 +1,6 @@
+# This loads additional data which is not covered by find_packages()
+# examples:
+#   include *.txt
+#   recursive-include examples *.yaml *.json *.yml
+#   prune examples/sample?/build
+include test.txt
