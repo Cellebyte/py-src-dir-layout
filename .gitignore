@@ -1,5 +1,7 @@
 .venv
 .vscode
 .mypy_cache
+build
+dist
 __pycache__
 *.egg-info
