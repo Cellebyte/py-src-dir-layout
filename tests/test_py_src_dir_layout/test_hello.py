@@ -1,5 +1,5 @@
 import pytest
-from rocket_science.hello import say
+from py_src_dir_layout.hello import say
 
 
 def test_say():

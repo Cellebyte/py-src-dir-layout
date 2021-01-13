@@ -1,7 +1,0 @@
-# This loads additional data which is not covered by find_packages()
-# ref: https://docs.python.org/3/distutils/sourcedist.html
-# examples:
-#   include *.txt
-#   recursive-include examples *.yaml *.json *.yml
-#   prune examples/sample?/build
-include test.txt

@@ -5,17 +5,18 @@ So I started a small repository which just shows how to do it properly.
 
 ```txt
 .
-├── MANIFEST.in
+├── poetry.lock
+├── pyproject.toml
 ├── README.md
-├── setup.py
 ├── src
-│   └── rocket_science
-│       ├── __init__.py
-│       └── hello.py
-├── test.txt
+│   └── py_src_dir_layout
+│       ├── hello.py
+│       └── __init__.py
+├── test_include.txt
 ├── tests
-│   ├── __init__.py    # this is not needed if you use a tooling like pytest it can be used to structure your tests
-│   └── test_hello.py
+│   └── test_py_src_dir_layout
+│       ├── __init__.py
+│       └── test_hello.py
 └── tox.ini
 ```
 
