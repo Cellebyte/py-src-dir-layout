@@ -139,6 +139,7 @@ To use them with VSCode use the following config in your project
   "python.linting.enabled": true,
   "python.linting.flake8Enabled": true,
   "python.formatting.provider": "black",
-  "python.linting.mypyEnabled": true
+  "python.linting.mypyEnabled": true,
+  "python.linting.pylintEnabled": false,
 }
 ```
